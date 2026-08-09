@@ -29,7 +29,7 @@ The complete TPU consists of:
 
 ### Full Architecture
 
-![Full TPU Architecture](docs/full-tpu-architecture.png)
+![Full TPU Architecture](IMAGES/TPU.png)
 
 ---
 
@@ -176,7 +176,7 @@ Matrix B is read from RAM B and divided into 4×4 tiles.
 
 ---
 
-# ➗ Matrix Multiplication
+# Matrix Multiplication
 
 ## Opcode 4 — Matrix Multiply
 
@@ -244,7 +244,7 @@ The first TPU implementation uses an **RnC Tiling Core**.
 
 ### Core Architecture
 
-![RnC Tiling Core](docs/rnc-tiling-core.png)
+![RnC Tiling Core](IMAGES/RnC_Tiling_core.png)
 
 The RnC Tiling Core performs multiplication on complete **4×4 tiles**.
 
@@ -273,7 +273,7 @@ The second TPU implementation uses a **Systolic Array Core**.
 
 ### Core Architecture
 
-![Systolic Array Core](docs/systolic-array-core.png)
+![Systolic Array Core](IMAGES/Systrolic_Array.png)
 
 The Systolic Array Core uses an array of Processing Elements (PEs).
 
